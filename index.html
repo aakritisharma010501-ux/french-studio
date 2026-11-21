@@ -137,7 +137,7 @@ tr.target td{background:color-mix(in srgb,var(--bleu) 10%,transparent);font-weig
 .focus{font:600 12px var(--body);letter-spacing:.1em;text-transform:uppercase;color:var(--bleu)}
 
 /* programs */
-.prog-grid{display:grid;grid-template-columns:minmax(0,640px);gap:20px;align-items:stretch}
+.prog-grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:20px;align-items:stretch}
 .prog{background:var(--card);border:1px solid var(--line);border-radius:24px;padding:32px;display:flex;flex-direction:column;gap:18px}
 .prog.feat{border:2px solid var(--bleu)}
 .prog .price{font:800 52px/1 var(--display);letter-spacing:-0.03em}
@@ -173,7 +173,7 @@ footer a{color:var(--ink);font-weight:600}
   <div class="wrap">
     <a class="brand" href="#top"><b>French Studio</b><small>by Radiké Labs</small></a>
     <div class="navlinks">
-      <a href="#why">Why French</a><a href="#team">Teachers</a><a href="#roadmap">Roadmap</a><a href="#scores">Scores</a><a href="#programs">Program</a><a href="#faq">FAQ</a>
+      <a href="#why">Why French</a><a href="#team">Teachers</a><a href="#roadmap">Roadmap</a><a href="#scores">Scores</a><a href="#programs">Programs</a><a href="#faq">FAQ</a>
     </div>
     <a class="btn solid small wa" href="#">Enroll on WhatsApp</a>
   </div>
@@ -331,9 +331,9 @@ footer a{color:var(--ink);font-weight:600}
 <section id="programs">
   <div class="wrap">
     <div class="sec-head">
-      <p class="eyebrow">The program</p>
-      <h2>One program. One student at a time.</h2>
-      <p class="lede">The full 90-day curriculum, five one-on-one classes a week, with a French professor and a native-speaker professor.</p>
+      <p class="eyebrow">The programs</p>
+      <h2>Two programs. One student at a time.</h2>
+      <p class="lede">French for the TCF Canada, and English for the IELTS. Every class is live and one-on-one.</p>
     </div>
     <div class="prog-grid">
       <div class="prog feat">
@@ -349,6 +349,20 @@ footer a{color:var(--ink);font-weight:600}
         </ul>
         <p class="best">Fee: CAD 700 (about ₹46,500 at today's rate) for the full 90 days.</p>
         <a class="btn solid wa" data-msg="Hi French Studio, I am interested in the 90-day CLB 5 Program (CAD 700). Can you share more details?" href="#">Enroll on WhatsApp</a>
+      </div>
+      <div class="prog">
+        <p class="eyebrow">5 one-on-one classes a week</p>
+        <h3 style="font-size:30px">IELTS General 8-Week Program</h3>
+        <div class="price">₹41,000 <small>40 classes · 8 weeks</small></div>
+        <ul>
+          <li>40 live one-on-one classes, 5 days a week</li>
+          <li>IELTS General Training, built for Canadian immigration</li>
+          <li>Target: CLB 8</li>
+          <li>Writing and speaking corrected every week</li>
+          <li>Taught by a specialist in English grammar</li>
+        </ul>
+        <p class="best">Fee: ₹41,000 for all 40 classes.</p>
+        <a class="btn solid wa" data-msg="Hi, I am interested in the 8-week IELTS General Program (₹41,000). Can you share more details?" href="#">Enroll on WhatsApp</a>
       </div>
 </div>
   </div>
