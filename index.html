@@ -137,7 +137,7 @@ tr.target td{background:color-mix(in srgb,var(--bleu) 10%,transparent);font-weig
 .focus{font:600 12px var(--body);letter-spacing:.1em;text-transform:uppercase;color:var(--bleu)}
 
 /* programs */
-.prog-grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:20px;align-items:stretch}
+.prog-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(300px,1fr));gap:20px;align-items:stretch}
 .prog{background:var(--card);border:1px solid var(--line);border-radius:24px;padding:32px;display:flex;flex-direction:column;gap:18px}
 .prog.feat{border:2px solid var(--bleu)}
 .prog .price{font:800 52px/1 var(--display);letter-spacing:-0.03em}
@@ -332,8 +332,8 @@ footer a{color:var(--ink);font-weight:600}
   <div class="wrap">
     <div class="sec-head">
       <p class="eyebrow">The programs</p>
-      <h2>Two programs. One student at a time.</h2>
-      <p class="lede">French for the TCF Canada, and English for the IELTS. Every class is live and one-on-one.</p>
+      <h2>Three programs. One student at a time.</h2>
+      <p class="lede">French for the TCF Canada, English for the IELTS, and English and French for kids. Every class is live and one-on-one.</p>
     </div>
     <div class="prog-grid">
       <div class="prog feat">
@@ -363,6 +363,20 @@ footer a{color:var(--ink);font-weight:600}
         </ul>
         <p class="best">Fee: ₹41,000 for all 40 classes.</p>
         <a class="btn solid wa" data-msg="Hi, I am interested in the 8-week IELTS General Program (₹41,000). Can you share more details?" href="#">Enroll on WhatsApp</a>
+      </div>
+      <div class="prog">
+        <p class="eyebrow">For kids · ages 6 to 14</p>
+        <h3 style="font-size:30px">English &amp; French for Kids</h3>
+        <div class="price fee">Free trial class</div>
+        <ul>
+          <li>One-on-one only, never a group class</li>
+          <li>Conversational English and French</li>
+          <li>Story reading to build vocabulary and confidence</li>
+          <li>French lessons and support for school</li>
+          <li>The same teacher every class, with a monthly progress report for parents</li>
+        </ul>
+        <p class="best">Book a free trial class. We share the fees and timings on WhatsApp.</p>
+        <a class="btn solid wa" data-msg="Hi, I would like to book a free trial class for my child (English &amp; French for Kids). Can you share the details?" href="#">Book a free trial</a>
       </div>
 </div>
   </div>
